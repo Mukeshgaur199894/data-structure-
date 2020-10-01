@@ -23,7 +23,7 @@ void pop()
     else
     {
         temp=top;
-       printf("    \npoped element : %d", temp.dt);
+       printf("    \npoped element : %d", temp->dt);
        top=top->link;
        temp->link=NULL;
        free(temp);
